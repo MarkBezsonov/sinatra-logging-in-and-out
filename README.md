@@ -17,7 +17,7 @@ HTTP requests and connect to our models, and our views either take in or
 display data to our users.
 
 This means that we want to minimize the amount of logic our views contain. Our
-views should never directly pull from the database (eg. `User.all`). All
+views should never directly pull from the database (ie. `User.all`, etc). All
 of that should be taken care of in the controller actions, and the data should
 be passed to the view via a specific controller action.
 
@@ -83,3 +83,5 @@ methods that make it cleaner to add logic to our views.
   only display the username and account balance if the user is logged in.
   Otherwise, it should contain a link to the home page. You'll also want to use
   `current_user` to display the username and balance.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-logging-in-and-out' title='Sinatra Sessions Lab - User Logins'>Sinatra Sessions Lab - User Logins</a> on Learn.co and start learning to code for free.</p>
